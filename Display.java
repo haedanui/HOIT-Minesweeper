@@ -1,8 +1,5 @@
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-
-import javax.swing.JPanel;
+import java.awt.*;
+import javax.swing.*;
 
 public class Display extends JPanel
 {
@@ -69,13 +66,6 @@ public class Display extends JPanel
 			}
 			digit2.setDigit(temp);
 		}
-		
-		g.setColor(Color.WHITE);
-		g.drawRect(5, 30, 42, 1);
-		g.drawRect(46, 5, 1, 25);
-		g.setColor(Color.GRAY);
-		g.drawRect(5, 5, 41, 1);
-		g.drawRect(5, 5, 1, 25);
 		
 		digit0.paint(g);
 		digit1.paint(g);

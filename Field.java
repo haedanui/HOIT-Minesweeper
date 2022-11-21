@@ -1,7 +1,4 @@
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
-
+import java.awt.*;
 
 public class Field
 {
@@ -156,15 +153,7 @@ public class Field
 		{
 			g.setColor(Color.WHITE);
 			g.fillRect(x * 16, y * 16, 16, 1);
-			//g.fillRect(x * 16, y * 16 + 1, 14, 1);
 			g.fillRect(x * 16, y * 16, 1, 16);
-			// g.fillRect(x * 16 + 1, y * 16 + 2, 1, 12);
-			g.setColor(Color.GRAY);
-			//g.fillRect(x * 16 + 2, y * 16 + 14, 14, 1);
-			//g.fillRect(x * 16 + 1, y * 16 + 15, 15, 1);
-			//g.fillRect(x * 16 + 14, y * 16 + 2, 1, 12);
-			//g.fillRect(x * 16 + 15, y * 16 + 1, 1, 13);
-			
 			if (flag)
 			{
 				g.setColor(Color.green);
