@@ -1,5 +1,4 @@
-public enum Difficulty
-{
+public enum Difficulty {
 	Easy,
 	Normal,
 	Hard
