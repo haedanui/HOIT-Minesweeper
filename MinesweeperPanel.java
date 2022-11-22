@@ -105,6 +105,7 @@ public class MinesweeperPanel extends JPanel implements MouseListener
 	{
 		gameOver = true;
 		minesweeper.setMines(0, true);
+		
 		for (int y = 0; y < countY; y++)
 		{
 			for (int x = 0; x < countX; x++)
